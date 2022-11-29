@@ -4,4 +4,4 @@ The jupyter notebooks are used for benchmark experiments of meta-learners and ca
 
 The python script is used for benchmark experiments of representation learning benchmark experiments. 
 
-https://arxiv.org/abs/2109.12769
+The paper is available at: https://arxiv.org/abs/2109.12769

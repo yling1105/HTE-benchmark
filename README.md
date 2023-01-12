@@ -1,7 +1,15 @@
 # Tutoria-paper-benchmark
 
-The jupyter notebooks are used for benchmark experiments of meta-learners and causal forest model. 
+## Introduction
+The code respository are used for the benchmark experiments we presented in our reivew paper Emulate Randomized Clinical Trials using Heterogeneous Treatment Effect Estimation for Personalized Treatments: Methodology Review and Benchmark. 
+- metalearner_benchmark.ipynb is the original jupyter notebook that records the original results for the experiments. 
+- causal_forest_benchmark.ipynb records the benchmark experiments' results for the tree-based method mentioned in our paper. 
+- representation_learner.py contains the represntation learning algorithm test in our benchmark experiments.
+- representation_learning_benchmark.ipynb shows the results of our benchmark experiments for the representation learning.
 
-The python script is used for benchmark experiments of representation learning benchmark experiments. 
+## Data access
+For the Benchmark Experiments, we used the OPTUM Health Claim Data Mart. Due to the policy, we cannot attach the source data here. We provide a test.py code to generate a sample dataset that can be used to run our models. 
 
-The paper is available at: https://arxiv.org/abs/2109.12769
+## Reference
+Ling, Y., Upadhyaya, P., Chen, L., Jiang, X., & Kim, Y. (2022). Emulate randomized clinical trials using heterogeneous treatment effect estimation for personalized treatments: Methodology review and benchmark. Journal of biomedical informatics, 137, 104256. Advance online publication. https://doi.org/10.1016/j.jbi.2022.104256
+
